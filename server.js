@@ -1,4 +1,4 @@
-```javascript
+
 const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
@@ -37,4 +37,3 @@ io.on('connection', (socket) => {
 const PORT = process.env.PORT || 3000;
 http.listen(PORT, () => console.log('🚀 السيرفر يعمل الآن على البورت ' + PORT));
 
-```
